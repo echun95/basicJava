@@ -132,7 +132,7 @@ public class Exam06 {
 			
 	 *
 	 * 13.
-	      for(int j =0; j < question.length; j++){
+	     for(int j =0; j < question.length; j++){
          int idx = (int)(Math.random() % question.length); 
          
          char tmp;
@@ -143,7 +143,6 @@ public class Exam06 {
          
 }
 	 */
-		
 		
 		
 		
