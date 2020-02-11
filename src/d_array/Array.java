@@ -63,15 +63,18 @@ public class Array {
 		}
 		avg = (double) sum / numbers.length;
 		System.out.println("합계 : " + sum + "\t평균 : " + avg);
+		
 
 		for (int number : numbers) {// 배열에 있는 값을 차례대로 변수에 넣는다.
 			System.out.println(number);
 		}
 
-		for (int number : numbers) {// 배열에 있는 값을 차례대로 변수에 넣는다.
+		for (int number : numbers) {
 			number = 0; // numbers의 값은 변경되지않는다.
 			System.out.println(number);
 		}
+		
+		
 		System.out.println(Arrays.toString(numbers));
 
 		// 배열에 저장된 숫자들중 최소값과 최대값을 찾아주세요
